@@ -1,14 +1,11 @@
 import numpy as np
 import cv2
-from google.colab.patches import cv2_imshow
 from PIL import Image
 from PIL import ImageEnhance
 from PIL import ImageFilter
 from PIL import ImageStat
 import statistics as stats
 import math
-
-'''helper'''
 
 kelvin_table = {
     1000: (255,56,0),
@@ -123,6 +120,3 @@ def white_balance_loops(img):
             result[x, y, 2] = b - ((avg_b - 128) * (l / 100.0) * 1.1)
     result = cv2.cvtColor(result, cv2.COLOR_LAB2BGR)
     return result
-
-
-
