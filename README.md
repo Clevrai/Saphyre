@@ -10,7 +10,7 @@ Saphyre is a Open Source Python Package for easy computational photography. With
 
 ### Install Saphyre
 ```
-pip install saphyre
+git clone https://github.com/clevr-Technologies/Saphyre.git
 ```
 
 
