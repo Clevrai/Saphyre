@@ -1,3 +1,5 @@
+![Image](https://github.com/clevr-Technologies/saphyre/blob/main/saphyre.png)
+
 Saphyre is a Open Source Python Package for easy computational photography. With one function call, you can create automatically create beautiful edits to regular and low light images.
 
 ## Table of Contents
